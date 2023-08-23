@@ -1,0 +1,58 @@
+/* styles.css */
+.data-grid-container {
+    height: 400px;
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.data-grid-root {
+    border: 1px solid #ccc;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+    border-radius: 4px;
+}
+
+.data-grid-header-cell {
+    /* background-color: #3498db;
+     */
+    font-weight: bolder;
+    color:black !important;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.data-grid-row:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+
+.department-list-container {
+    margin-top: 20px;
+}
+
+.department-list-item {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.department-list-item:hover {
+    background-color: #2980b9;
+}
+
+.department-list-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.department-list-description {
+    font-size: 14px;
+}
