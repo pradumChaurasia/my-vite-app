@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { DataGrid, GridColDef } from '@mui/x-data-grid';
-import DepartmentList from '../components/Departments';
+
 import './SecondPage.css';
+import DepartmentApp from '../components/Departments';
 
 interface Post {
   userId: number;
@@ -46,7 +47,8 @@ const SecondPage: React.FC = () => {
       />
 
       <div className="department-list-container">
-        <DepartmentList />
+       
+        <DepartmentApp/>
       </div>
     </div>
   );
